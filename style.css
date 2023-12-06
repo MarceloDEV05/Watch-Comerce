@@ -75,47 +75,149 @@ li button{
     gap: 30px;
     text-align: center;
     display: flex;
-}
-.prod1{
-    border: 1px solid #fff;
-    width: 250px;
-    height: 250px;
-    background-color: #fff;
-    border-radius: 8px;
-    
-}
-.prod2{
-    border: 1px solid #fff;
-    width: 250px;
-    height: 250px;
-    background-color: #fff;
-    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.prod3{
+.prod1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.prod1 button{
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid;  
+     
+}
+
+
+
+.prod1 p{
+    color: #00ff00;
+}
+.prod1{
     border: 1px solid #fff;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 298px;
     background-color: #fff;
     border-radius: 8px;
+}
+
+
+.prod2 p{
+    color: #00ff00;
+}
+
+.prod2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.prod2 button{
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    
+    
+}
+
+
+.prod2{
+    border: 1px solid #fff;
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    
+}
+.prod3 a{
+    text-decoration: none;
+    color: black;
+}
+.prod3 p{
+    color: #00ff00;
+}
+
+.prod3 button{
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    
+    
+}
+
+
+.prod3{
+    border: 1px solid #fff;
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    
+}
+.prod4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.prod4 p{
+    color: #00ff00;
+}
+
+.prod4 button{
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    
     
 }
 
 .prod4{
     border: 1px solid #fff;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 300px;
     background-color: #fff;
     border-radius: 8px;
     
 }
+.prod5 a{
+    text-decoration: none;
+    color: black;
+}
+
+.prod5 p{
+    color: #00ff00;
+}
 
 .prod5{
     border: 1px solid #fff;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 300px;
     background-color: #fff;
     border-radius: 8px;
     
+}
+.prod5 button{
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    
+    
+}
+
+button.buy{
+    background-color: #00ff00;
+    color: white;
+}
+
+button.car{
+    background-color: #25d8f0;
+    border-color: #00e1ff;
 }
