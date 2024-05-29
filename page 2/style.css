@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ephesis&family=Montserrat:ital,wght@0,200;1,200&family=Nunito:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Tomorrow:ital,wght@0,300;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    color: rgb(0, 0, 0);
+
+}
+
+.containerHeader{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 1px 8px 0 gray;
+
+}
+
+.containerHeader header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerHeader h1{
+    margin: 1.1rem;
+}
+
+.containerHeader h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.containerHeader ul li{
+    display: inline;
+    padding: 20px;
+}
+
+.containerHeader ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.containerHeader ul li a:hover{
+    color: #00ff00;
+}
+
+
+.productsContainer{
+    padding-top: 70px;
+}
+
+.product1{
+    display: flex;
+    border: none;
+    box-shadow: 0 2px 5px 3px gray;
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+}
+
+.product1 section, article{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.product1 button{
+    margin-top: 80px;
+    margin-left: 170px;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.product2{
+    margin-top: 30px;
+    display: flex;
+    border: none;
+    box-shadow: 0 2px 5px 3px gray;
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.product2 section, article{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.product2 button{
+    margin-top: 80px;
+    margin-left: 170px;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+
+.product3{
+    margin-top: 30px;
+    display: flex;
+    border: none;
+    box-shadow: 0 2px 5px 3px gray;
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.product3 section, article{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.product3 button{
+    margin-top: 80px;
+    margin-left: 170px;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+

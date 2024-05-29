@@ -61,6 +61,7 @@ body{
 
 .containerInterface p{
     font-size: 18px;
+    padding-top: 30px;
 }
 
 .containerBody{
@@ -167,8 +168,8 @@ textarea{
 
 .list{
     padding-top: 50px;
-    display: flex;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     justify-content:center ;
     padding-bottom: 50px;
